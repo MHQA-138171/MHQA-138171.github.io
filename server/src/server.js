@@ -1,10 +1,12 @@
 const http = require('http');
 
+require('dotenv').config();
+
 const { loadUsers } = require('../models/users.model');
 
 const app = require('./app');
 
-const PORT = 9000;
+const PORT = process.env.PORT;
 
 const server = http.createServer(app);
 
