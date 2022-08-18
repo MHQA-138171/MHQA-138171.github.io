@@ -6,7 +6,7 @@ const { loadUsers } = require('../models/users.model');
 
 const app = require('./app');
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 1000;
 
 const server = http.createServer(app);
 
