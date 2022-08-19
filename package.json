@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MHQA-138171/RoboFriends/issues"
   },
-  "homepage": "https://github.com/MHQA-138171/RoboFriends#readme"
+  "homepage": "https://github.com/MHQA-138171/RoboFriends#readme",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  }
 }
