@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-let users = ['testing'];
+let users = [];
 
 function loadUsers() {
     return new Promise((resolve, reject) => {
