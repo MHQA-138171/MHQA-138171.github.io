@@ -2,7 +2,7 @@ const http = require('http');
 
 require('dotenv').config();
 
-const { loadUsers } = require('../models/users.model');
+const { loadUsers } = require('./models/users.model');
 
 const app = require('./app');
 
