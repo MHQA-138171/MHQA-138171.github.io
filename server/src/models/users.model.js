@@ -5,7 +5,7 @@ let users = [];
 
 function loadUsers() {
     return new Promise((resolve, reject) => {
-        fs.createReadStream(path.join(__dirname, '..', 'data', 'users.json'))
+        fs.createReadStream(path.join(__dirname, '..', '..', 'data', 'users.json'))
             .on('data', (data) => {
                 users = JSON.parse(data);
             })
