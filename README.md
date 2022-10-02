@@ -1,2 +1,2 @@
-# mhqa-138171.github.io
+# CAT Friends
 Simple React App served with a simple API
